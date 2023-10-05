@@ -10,7 +10,7 @@ package com.studentsfp.devenvironment.unittesting.p2.data;
 public class Bank {
     private int accountCode;
     private int[] savings;
-
+    private String location;
     public int[] getSavings() {
         return savings;
     }
@@ -19,8 +19,20 @@ public class Bank {
         this.savings = savings;
     }
 
-    public Bank(int accountCode, int[] savings) {
+
+    public Bank(int savings) {
+    }
+    public Bank(int accountCode, int[] savings, String location) {
         this.accountCode = accountCode;
         this.savings = savings;
+        this.location = location;
     }
-}
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
