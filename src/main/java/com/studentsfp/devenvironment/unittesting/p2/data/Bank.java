@@ -8,4 +8,16 @@ package com.studentsfp.devenvironment.unittesting.p2.data;
  * @author berto (alberto.soto@gmail.com)
  */
 public class Bank {
+
+    private int savings;
+
+    public int getSavings() {
+        return savings;
+    }
+
+    public void setSavings(int savings) {
+        this.savings = savings;
+    }
+
+
 }
