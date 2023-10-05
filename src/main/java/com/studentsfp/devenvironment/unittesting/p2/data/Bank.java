@@ -8,18 +8,19 @@ package com.studentsfp.devenvironment.unittesting.p2.data;
  * @author berto (alberto.soto@gmail.com)
  */
 public class Bank {
+    private int accountCode;
+    private int[] savings;
 
-    private int savings;
-
-    public int getSavings() {
+    public int[] getSavings() {
         return savings;
     }
 
-    public void setSavings(int savings) {
+    public void setSavings(int[] savings) {
         this.savings = savings;
     }
 
-    public Bank(int savings){
+    public Bank(int accountCode, int[] savings) {
+        this.accountCode = accountCode;
         this.savings = savings;
     }
 }
