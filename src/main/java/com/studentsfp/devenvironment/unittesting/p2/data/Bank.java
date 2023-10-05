@@ -19,5 +19,7 @@ public class Bank {
         this.savings = savings;
     }
 
-
+    public Bank(int savings){
+        this.savings = savings;
+    }
 }
