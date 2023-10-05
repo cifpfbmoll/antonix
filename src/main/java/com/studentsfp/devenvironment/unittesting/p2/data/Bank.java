@@ -22,12 +22,15 @@ public class Bank {
 
     public Bank(int savings) {
     }
+
+    // Constructor de la clase banco
     public Bank(int accountCode, int[] savings, String location) {
         this.accountCode = accountCode;
         this.savings = savings;
         this.location = location;
     }
 
+    // getter
     public String getLocation() {
         return location;
     }
