@@ -1,15 +1,5 @@
 package com.studentsfp.devenvironment.unittesting.p1.data;
 
-/**
- * com.fbmoll.programming.data
- * Class Person
- * 11/12/2020
- *
- *  > PascalCase
- *  > camelCase
- *
- * @author berto (alberto.soto@gmail.com)
- */
 public class Person {
     private String name;
     private String surname;

@@ -1,12 +1,5 @@
 package com.studentsfp.devenvironment.unittesting.data;
 
-/**
- * com.studentsfp.devenvironment.unittesting.data
- * Class Student
- * 09/09/2020
- *
- * @author berto (alberto.soto@gmail.com)
- */
 public class Student {
     private long id;
     private String name;

@@ -7,13 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * com.studentsfp.devenvironment.unittesting.controller
- * Class RestStudentController
- * 09/09/2020
- *
- * @author berto (alberto.soto@gmail.com)
- */
 @RestController
 public class RestStudentController {
 
